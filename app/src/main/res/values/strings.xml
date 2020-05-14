@@ -10,10 +10,19 @@
     <string name="menuhome">Home</string>
     <string name="menudaily">Daily Activity</string>
     <string name="menugallery">Gallery</string>
-    <string name="menumusic">Music and Movies</string>
+    <string name="menumusic">Music</string>
     <string name="menuprofile">Profile</string>
     <string name="getstarted">Get Started</string>
     <string name="namasaya">Muhamad El Raiz</string>
     <string name="nimsaya">10117163</string>
     <string name="kelassaya">IF5</string>
+    <string name="biodata">Biodata</string>
+    <string name="makes">Favourite Food</string>
+    <string name="mikes">Favourite Drink</string>
+    <string name="makesitem">Pizza</string>
+    <string name="mikesitem">Coca-Cola</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="hob1">Guitars</string>
+    <string name="hob2">Games</string>
+    <string name="hob3">Movies</string>
 </resources>
