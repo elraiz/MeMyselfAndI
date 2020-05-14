@@ -5,4 +5,15 @@
     <string name="hastag1">#StayHome</string>
     <string name="hastag2">#StaySafe</string>
     <string name="next">Next</string>
+    <string name="walkim">Walkthrough Image</string>
+    <string name="skip">Skip</string>
+    <string name="menuhome">Home</string>
+    <string name="menudaily">Daily Activity</string>
+    <string name="menugallery">Gallery</string>
+    <string name="menumusic">Music and Movies</string>
+    <string name="menuprofile">Profile</string>
+    <string name="getstarted">Get Started</string>
+    <string name="namasaya">Muhamad El Raiz</string>
+    <string name="nimsaya">10117163</string>
+    <string name="kelassaya">IF5</string>
 </resources>
