@@ -45,11 +45,16 @@ public class DailyActivity extends AppCompatActivity {
 
         app2List = new ArrayList<App2>();
 
-        app2List.add(new App2("Bangun","4.30"));
+        app2List.add(new App2("Bangun","4.00"));
+        app2List.add(new App2("Sahur","4.10"));
         app2List.add(new App2("Sholat Subuh","5.00"));
+        app2List.add(new App2("Tidur","5.15"));
         app2List.add(new App2("Belajar","8.00"));
+        app2List.add(new App2("Sholat Dzuhur","12.00"));
         app2List.add(new App2("Main Game","12.30"));
-        app2List.add(new App2("Tugas","19.30"));
+        app2List.add(new App2("Sholat Ashar","15.00"));
+        app2List.add(new App2("Berbuka Puasa","17.50"));
+        app2List.add(new App2("Menyicil Tugas dan Belajar","19.30"));
 
         LinearLayoutManager manager = new LinearLayoutManager(this);
         manager.setOrientation(LinearLayoutManager.HORIZONTAL);
