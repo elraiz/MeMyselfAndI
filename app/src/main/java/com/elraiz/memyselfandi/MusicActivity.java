@@ -2,26 +2,27 @@ package com.elraiz.memyselfandi;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class HomeActivity extends AppCompatActivity {
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.youtube.player.YouTubeBaseActivity;
+
+public class MusicActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_music);
 
         //inisialisasi
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
 
         //set home selected
-        bottomNav.setSelectedItemId(R.id.nav_home);
+        bottomNav.setSelectedItemId(R.id.nav_music);
 
         //item selected listener
         bottomNav.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -29,6 +30,9 @@ public class HomeActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.nav_home:
+                        startActivity(new Intent(getApplicationContext()
+                                , HomeActivity.class));
+                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.nav_daily:
                         startActivity(new Intent(getApplicationContext()
@@ -41,9 +45,6 @@ public class HomeActivity extends AppCompatActivity {
                         overridePendingTransition(0, 0);
                         return true;
                     case R.id.nav_music:
-                        startActivity(new Intent(getApplicationContext()
-                                , MusicActivity.class));
-                        overridePendingTransition(0, 0);
                         return true;
                     case R.id.nav_profille:
                         startActivity(new Intent(getApplicationContext()
@@ -55,6 +56,4 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
     }
-
-
 }

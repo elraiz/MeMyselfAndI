@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private static int SPLASH_TIME_OUT = 5000;
+    private static int SPLASH_TIME_OUT = 4000;
     Animation topAnim, bottomAnim, leftAnim, rightAnim;
     ImageView image;
     TextView text1,text2;

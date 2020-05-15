@@ -22,7 +22,35 @@
     <string name="makesitem">Pizza</string>
     <string name="mikesitem">Coca-Cola</string>
     <string name="hobbies">Hobbies</string>
-    <string name="hob1">Guitars</string>
+    <string name="hob1">Musics</string>
     <string name="hob2">Games</string>
     <string name="hob3">Movies</string>
+    <string name="interest">Interest</string>
+    <string name="interestitem">Money and Power</string>
+    <string name="aspiration">Aspiration</string>
+    <string name="asp1">Game Dev</string>
+    <string name="asp2">Musician</string>
+    <string name="social">Social Media</string>
+    <string name="contact">Contacts</string>
+    <string name="phone"> Phone</string>
+    <string name="mail"> Mail</string>
+    <string name="phoneitem">085714838176</string>
+    <string name="mailitem">raizrock161@gmail.com</string>
+    <string name="find">View My Location</string>
+    <string name="friend">Friend List</string>
+    <string name="twitter">https://twitter.com/muhamadelraiz</string>
+    <string name="ig">https://www.instagram.com/elraiz/</string>
+    <string name="fb">https://www.facebook.com/muhammadel.raiz?ref=bookmarks</string>
+    <string name="title1">No Heart To Speak Of</string>
+    <string name="artist1">Blink-182</string>
+    <string name="title2">In Bloom</string>
+    <string name="artist2">Neck Deep</string>
+    <string name="title3">Never</string>
+    <string name="artist3">Trevor Daniel</string>
+    <string name="close">Close</string>
+    <string name="about">About</string>
+    <string name="jam">JAM OUT!</string>
+    <string name="appinfo">App Info</string>
+    <string name="appver">App Version : V 1.0</string>
+    <string name="appdev">App Dev : Muhamad El Raiz</string>
 </resources>

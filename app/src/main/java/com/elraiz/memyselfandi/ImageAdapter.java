@@ -7,42 +7,48 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+import java.util.List;
+
 public class ImageAdapter extends BaseAdapter {
 
+    private List<Integer> mThumbIds;
     private Context mContext;
 
-    public int[] imageArray = {
-            R.drawable.g1,R.drawable.g2,R.drawable.g3,
-            R.drawable.g4,R.drawable.g5,R.drawable.g6,
-            R.drawable.g7,R.drawable.g8,R.drawable.g9
-    };
 
-    public ImageAdapter(Context mContext) {
+    public ImageAdapter(List<Integer> mThumbIds, Context mContext) {
+
+        this.mThumbIds = mThumbIds;
         this.mContext = mContext;
+
+
     }
 
     @Override
     public int getCount() {
-        return imageArray.length;
+        return mThumbIds.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return imageArray[position];
+        return null;
     }
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return mThumbIds.get(position);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        ImageView imageView = new ImageView(mContext);
-        imageView.setImageResource(imageArray[position]);
-        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(340,340));
+        ImageView imageView = (ImageView) convertView;
 
+        if (imageView == null){
+            imageView = new ImageView(mContext);
+            imageView.setLayoutParams(new GridView.LayoutParams(340,340));
+            imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        }
+
+        imageView.setImageResource(mThumbIds.get(position));
         return imageView;
     }
 }

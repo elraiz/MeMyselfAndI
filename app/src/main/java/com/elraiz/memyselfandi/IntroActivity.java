@@ -47,9 +47,9 @@ public class IntroActivity extends AppCompatActivity {
 
         //list
         final List<ScreenItem> mList = new ArrayList<>();
-        mList.add(new ScreenItem("Know More About Me","",R.drawable.img1));
-        mList.add(new ScreenItem("View My Gallery","",R.drawable.img2));
-        mList.add(new ScreenItem("Listen To My Favourites Music","",R.drawable.img3));
+        mList.add(new ScreenItem("Profille","Know more about me! from biodata, interest, ,aspiration, hobbies and daily activity",R.drawable.img1));
+        mList.add(new ScreenItem("Gallery","See the picture that i want to share with you through my gallery",R.drawable.img2));
+        mList.add(new ScreenItem("Music","See and listen to some of my favourites music to jam right now",R.drawable.img3));
 
         //setup viewpager
         screenPager = findViewById(R.id.screen_viewpager);
