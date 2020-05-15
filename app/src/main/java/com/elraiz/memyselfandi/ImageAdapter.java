@@ -9,6 +9,10 @@ import android.widget.ImageView;
 
 import java.util.List;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class ImageAdapter extends BaseAdapter {
 
     private List<Integer> mThumbIds;

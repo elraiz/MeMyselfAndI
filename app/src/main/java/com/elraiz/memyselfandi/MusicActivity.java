@@ -11,6 +11,10 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.youtube.player.YouTubeBaseActivity;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class MusicActivity extends AppCompatActivity {
 
     @Override

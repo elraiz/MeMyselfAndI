@@ -14,6 +14,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.ArrayList;
 import java.util.List;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class DailyActivity extends AppCompatActivity {
 
     RecyclerView friendlist;

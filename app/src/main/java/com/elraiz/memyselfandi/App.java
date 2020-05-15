@@ -1,5 +1,11 @@
 package com.elraiz.memyselfandi;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
+//
+
 public class App {
 
     int image;

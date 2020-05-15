@@ -11,6 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class CustomAdaptorDaily extends RecyclerView.Adapter<CustomAdaptorDaily.MyViewHolder> {
     private Context mContext;
     private List<App2> apps2;

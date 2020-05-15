@@ -12,6 +12,10 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.List;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class IntroViewPageAdapter extends PagerAdapter {
 
     Context mContext;

@@ -13,6 +13,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 4000;
     Animation topAnim, bottomAnim, leftAnim, rightAnim;

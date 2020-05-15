@@ -1,5 +1,9 @@
 package com.elraiz.memyselfandi;
 
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,6 +1,8 @@
 package com.elraiz.memyselfandi;
 
-import java.lang.reflect.Constructor;
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
 
 public class ScreenItem {
     String Title,Description;

@@ -11,11 +11,14 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+//NIM : 10117163
+//Nama : Muhamad El Raiz
+//Kelas : IF5
 
 public class ProfilleActivity extends AppCompatActivity {
 
