@@ -20,6 +20,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//11 Mei 2020 : membuat activity music serta mendesai secara sederhana tampilan yang akan digunakan,menambah bottom navigation beserta fungsinya
+//13 Mei 2020 : menambahkan komponen komponen pada activity profille
+//14 Mei 2020 : penambhan tombol social media yang akan mengantar ke akun sosial media,serta menambahkan tombol location
+//15 Mei 2020 : menambhakan dan mendesain custom dialog,merapihkan dan melengkapi tampilan halaman home,penambhan fungsi fungsi custom dialog
+
 public class ProfilleActivity extends AppCompatActivity {
 
     TextView txtabout;

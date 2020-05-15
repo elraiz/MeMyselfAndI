@@ -22,6 +22,10 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//5 Mei 2020 : mendesain tampilan halaman walkthrough serta menyiapkan komponen halaman home
+//7 Mei 2020 : mamasukan setiap gambar dan teks walkthrough
+//10 Mei 2020 : manmbahkan fungsi pada walkthrough serta mendesain tampilan halaman home
+
 public class IntroActivity extends AppCompatActivity {
 
     private ViewPager screenPager;

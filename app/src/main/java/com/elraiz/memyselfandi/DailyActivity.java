@@ -18,6 +18,10 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//11 Mei 2020 : membuat activy daily serta menyediakan bottom navigation,menambahkan funsi pada bottom navigation
+//13 Mei 2020 :  mendesain dan menambahkan komponen komponen pada activty daily
+//14 Mei 2020 : mengimplementasi recycleview untuk menampilkan daftar teman yang berupa horizontal,membuat layout recycle view freind list,meneyediakan adaptor adaptor untuk menampilkan recycle view
+//15 Mei 2020 : mengiplementasi recycleview untuk menampilkan daily activity,mengisi elemen recycleview serta mengimplentasi recycleview daily activity pada menu daily activity, serta merapihkan dan melengkapi tampilan halaman
 public class DailyActivity extends AppCompatActivity {
 
     RecyclerView friendlist;

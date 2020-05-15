@@ -17,6 +17,13 @@ import android.widget.TextView;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//3 Mei 2020 : pembuatan awal project dan pembuatan desain splash screen
+//4 Mei 2020 : mendesain logo aplikasi
+//5 Mei 2020 : pembuatan fungsi-fungsi pada splahscreen, mendesain tampilan halaman home seta merapihkan splashscreen, pencarian dan pembuatan aset aset yang akan dibutuhkan aplikasi
+//7 Mei 2020 : mendesain dan memasukan gambar logo aplikasi dan gampbar walkthrough aplikasi
+//14 Mei 2020 :pengecekan dan penambahan fitur fitur pada aplikasi
+//15 Mei 2020 : pengecekan aplikasi secara menyeluruh serta merapihkan dan melengkapi aplikasi
+
 public class MainActivity extends AppCompatActivity {
     private static int SPLASH_TIME_OUT = 4000;
     Animation topAnim, bottomAnim, leftAnim, rightAnim;

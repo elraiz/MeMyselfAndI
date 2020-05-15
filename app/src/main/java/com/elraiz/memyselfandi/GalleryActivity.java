@@ -18,6 +18,11 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//11 Mei 2020 : membuat activty gallery,menambahkan fungsi pada bottom navigation
+//13 Mei 2020 : mendesain dan menyiapkan tampilan gallery,memasukan foto foto yang akan ditampilkan gallery
+//14 Mei 2020 : menyediakan gallery view pada activity gallery,melakukan implementasi recycle view pada tampilan galley
+//15 Mei 2020 : merapihkan dan menyelesaikan fungsi fungsi pada activity gallery serta pengecekan aplikasi secara menyeluruh
+
 public class GalleryActivity extends AppCompatActivity {
 
     private RecyclerView recyclegallery;

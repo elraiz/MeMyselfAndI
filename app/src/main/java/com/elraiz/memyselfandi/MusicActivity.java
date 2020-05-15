@@ -15,6 +15,10 @@ import com.google.android.youtube.player.YouTubeBaseActivity;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//11 Mei 2020 : membuat dan mendesai tampilan activity music serta menambahkan fungsi pindah activity pada bottom navigation
+//14 Mei 2020 : penambahan dependecies untuk memutar video youtube
+//15 Mei 2020 : merapihkan dan menyelesaikan tampilan halaman activity music
+
 public class MusicActivity extends AppCompatActivity {
 
     @Override

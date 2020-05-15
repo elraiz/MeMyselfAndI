@@ -4,6 +4,8 @@ package com.elraiz.memyselfandi;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//15 Mei 2020 pembuatan class app untuk menampung format daily list pada acitivity daily
+
 public class App2 {
     String aktivitas;
     String jam;

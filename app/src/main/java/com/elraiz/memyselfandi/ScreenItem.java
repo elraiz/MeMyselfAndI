@@ -4,6 +4,7 @@ package com.elraiz.memyselfandi;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//10 Mei 2020 pembuatan class screen item untuk menampung format screen layout pada halaman walkthroug
 public class ScreenItem {
     String Title,Description;
     int ScreenImg;

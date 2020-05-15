@@ -4,6 +4,7 @@ package com.elraiz.memyselfandi;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//15 Mei pembuatan custom adaptor untuk menampung recycleview friendlist
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

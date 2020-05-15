@@ -16,6 +16,7 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//10 Mei 2020 : pembuatan intro viewpager adeptor sebagai adapator untuk menampilkan screen layout walkthrough,serta penambahan fungsi untuk masuk ke home activity
 public class IntroViewPageAdapter extends PagerAdapter {
 
     Context mContext;

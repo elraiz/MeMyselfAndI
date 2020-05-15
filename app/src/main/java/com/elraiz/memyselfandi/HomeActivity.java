@@ -13,6 +13,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//10 Mei 2020 : mendesain halaman home dan profille,mengisi komponen komponen pada halaman home serta membuat activity activity untuk menu lainnya
+//11 Mei 2020 : menambahkan fungsi untuk pindah ke activity lain melalu bottom navigation yang tersedia
+//14 Mei 2020 : melengkapi serta merapihkan tampilan halaman home
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override

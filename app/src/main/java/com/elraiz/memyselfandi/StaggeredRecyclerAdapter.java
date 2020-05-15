@@ -15,6 +15,9 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//14 Mei 2020 pembuatan staggered recycle adapter sebagai adaptor untuk menampung adaptor untuk menampilkan kumpulan foto pada activity gallery
+//15 Mei 2020 merapihkan dan menyempurnaan kode
+
 public class StaggeredRecyclerAdapter extends RecyclerView.Adapter<StaggeredRecyclerAdapter.ImageViewHolder> {
 
     Context mContext;

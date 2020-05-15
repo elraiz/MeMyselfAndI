@@ -15,6 +15,7 @@ import java.util.List;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//15 Mei 2020 : pembuatan custom adapator daily sebagai adaptor untuk recycleview yang akan menampilkan list daily acitivity
 public class CustomAdaptorDaily extends RecyclerView.Adapter<CustomAdaptorDaily.MyViewHolder> {
     private Context mContext;
     private List<App2> apps2;

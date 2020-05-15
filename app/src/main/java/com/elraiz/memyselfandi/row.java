@@ -4,6 +4,8 @@ package com.elraiz.memyselfandi;
 //Nama : Muhamad El Raiz
 //Kelas : IF5
 
+//13 Mei 2020 : pembuatan java row untuk menampung baris recycleview pada halam gallery
+
 public class row {
 
     private int img;
